@@ -12,7 +12,7 @@ description: >
 license: MIT
 compatibility: Requires access to Chinese advertising law references in references/
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   source_urls:
     广告法: "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_5474cf75173c45d6a0379730fb4e8d97.html"
     互联网广告管理办法: "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_d93a579afd45413e8576e4623fab348f.html"
@@ -67,6 +67,8 @@ metadata:
 
 ---
 
+> **使用提示**：本工具最适合审查单一商业广告文案。如输入内容过长（超过 2000 字）或涉及多渠道多场景的复杂情况，建议分段提交，或说明"从严审查"以启动最严格审查模式。工具无法独立判断时会提示补充信息，请根据指引回复。
+
 ## Step 0 — 前置广告判断（执法指南一）
 
 > **适用边界**：本步骤判断待审查内容是否构成「商业广告」，从而确定是否落入本技能审查范围。
@@ -108,7 +110,9 @@ metadata:
   - 店招牌匾等经营主体基本信息
   - 为保障消费者知情权的实物/图片展示
 
-**结论**：如不满足四性中任意一项 → 不构成商业广告，输出「非广告」结果并终止。如满足全部四性 → 继续 Step 1。
+**结论**：
+- 如不满足四性中任意一项 → **不构成商业广告**，本审查工具不适用。输出「非广告」结果（附简要理由）并终止审查。如需其他法律合规帮助（如知识产权、合同审查等），请说明具体需求。
+- 如满足全部四性 → 继续 Step 1。
 
 ### 0.5 边界模糊引导 — 信息不足以判断时怎么办
 
