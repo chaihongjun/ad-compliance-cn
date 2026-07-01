@@ -28,7 +28,7 @@ npx skills add chaihongjun/ad-compliance-cn --yes
 
 ## 文件结构
 
-- `SKILL.md` — 主技能文件，13 步审查流程（含图片视觉审查）+ 违规定级 + 罚款速查 + 报告模板
+- `SKILL.md` — 主技能文件，13 步审查流程（含图片视觉审查）
 - `references/` — 参考文档：
   - 法规原文（8 份）：
     - 广告法（74 条）
@@ -41,6 +41,9 @@ npx skills add chaihongjun/ad-compliance-cn --yes
     - 执法指南（二）：管辖规则
   - [案例演示](references/CASES.md) — 3 个完整审查案例
   - [常见疑问解答](references/FAQ.md) — 10 条 FAQ
+  - [审查报告模板](references/REPORT_TEMPLATE.md) — 输出格式规范
+  - [易错点清单](references/GOTCHAS.md) — 8 条常见非直觉陷阱
+  - [审查辅助参考](references/GUIDANCE.md) — 边界模糊引导 + 罚款速查表
 
 ## License
 
